@@ -1,0 +1,90 @@
+// banner
+.banner{
+    background: url(../images/banner.jpg) no-repeat;    
+    background-position: center center;
+    background-size: cover;
+    height: 870px;
+    @include pad{
+        height: 600px; 
+    }
+    @include phone{
+        height: 480px; 
+    }
+    .btn-outline-light-hover:hover{
+        background-color: #FFFFFF4D;
+        color: $black !important;
+    }
+}
+.banner2-img{
+    background: url(../images/index13.jpg) no-repeat;    
+    background-position: center center;
+    background-size: cover;
+    height: 870px;
+    @include pad{
+        height: 600px; 
+    }
+    @include phone{
+        height: 480px; 
+    }
+}
+.banner3-img{
+    background: url(../images/products8.jpg) no-repeat;    
+    background-position: center center;
+    background-size: cover;
+    height: 870px;
+    @include pad{
+        height: 600px; 
+    }
+    @include phone{
+        height: 480px; 
+    }
+}
+// productIntro
+.productIntro-img{
+    height: 555px;
+    @include pad{
+        width: 555px; 
+    }
+    @include phone{
+        height: 350px; 
+    }
+}
+.productIntro-img4{
+     
+      height: 1080px;
+      @include pad{
+        width: 555px;
+        height: 680px;
+    }
+}
+// topProduct 
+.topProduct-img{
+    height: 540px;
+    @include phone{
+        height: 350px;
+    }
+}
+.del-productprice{
+    color: $gray-500 !important;
+}
+// topProduct filter
+.filter-gray{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.translate-middle {
+    transform: translate(-50%, -50%);
+  }
+// recycleProduct
+.recycle-img{
+    height: 520px;
+}
+//subscribe
+.subscribe{
+    background: url(../images/subscribe.jpg) no-repeat;    
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    @include pad{
+        background-image:url(../images/subscribe_sm.jpg);
+    }
+}

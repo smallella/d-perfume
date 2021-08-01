@@ -1,0 +1,16 @@
+.wide-img{
+    height: 460px;
+    @include phone{
+        height: 220px;
+    }
+}
+.narrow-img{
+    height: 640px;
+}
+.medium-img{
+    height: 460px;
+}
+
+.addcart-btn:hover{
+    background-color: #6C4700;
+}

@@ -1,0 +1,16 @@
+// customize bootstrap
+@import "bootstrap/bootstrap";
+
+// breakpoint
+@import "mixin";
+// all pages reset
+@import "default";
+//layout with header and nav
+@import "layout";
+
+//html pages
+@import "index";
+@import "product";
+@import "login";
+@import "member";
+@import "product2";

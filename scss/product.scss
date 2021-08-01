@@ -1,0 +1,18 @@
+.perfumeProduct-img{
+    height: 255px;
+    @include pad {
+        height: 165px;
+    }
+}
+.perfumeProduct-icon{
+    color: #916019 !important;
+    &:hover{
+        color: $gold !important;
+      }
+}
+.del-productprice{
+    color: $gray-500 !important;
+}
+.page-link:hover {
+    background-color: transparent;
+  }

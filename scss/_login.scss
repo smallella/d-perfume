@@ -1,0 +1,6 @@
+.login-img {
+    height: 730px;
+    @include phone{
+        height: 220px;
+    }
+}
