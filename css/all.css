@@ -22545,6 +22545,10 @@ a:hover {
   }
 }
 
+.nav-item .footer-link {
+  color: #fff !important;
+}
+
 .top {
   position: fixed;
   right: 20px;
