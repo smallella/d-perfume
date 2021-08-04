@@ -22546,6 +22546,9 @@ a:hover {
 .nav-item .footer-link {
   color: #fff !important;
 }
+.nav-item .footer-link:hover {
+  color: gold !important;
+}
 
 .top {
   position: fixed;

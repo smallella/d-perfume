@@ -36,6 +36,9 @@
 }
 .nav-item .footer-link{
   color: $white !important;
+  &:hover{
+    color: gold !important;
+  }
 }
 //Go to top
 .top{
