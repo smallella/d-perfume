@@ -22476,7 +22476,6 @@ a:hover {
 
 .container {
   max-width: 1120px;
-  margin: 0 auto;
   padding: 0 10px;
 }
 @media (max-width: 376px) {
@@ -22487,7 +22486,6 @@ a:hover {
 
 .nav_container {
   max-width: 1120px;
-  margin: 0 auto;
   padding: 0px;
 }
 
